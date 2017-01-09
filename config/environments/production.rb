@@ -36,7 +36,7 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain
   # config.action_cable.mount_path = nil
-  # config.action_cable.url = 'wss://example.com/cable'
+  config.action_cable.url = 'wss://sitepoint-actioncable.herokuapp.com/cable'
   config.action_cable.allowed_request_origins = [ 'https://sample-cable-chat-prod.herokuapp.com',
                                                   'http://sample-cable-chat-prod.herokuapp.com'
                                                 ]
